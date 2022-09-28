@@ -1,0 +1,115 @@
+#mainNav {
+  border-bottom: .5px solid rgba(55,99,244,0.2);
+  background-color: #fff;
+  transition: all .2s;
+}
+
+@media (min-width: 992px) {
+  #mainNav.navbar-shrink {
+    border-bottom: 0px solid rgba(45,45,45,.1);
+    background-color: #fff;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444;
+  letter-spacing: 0;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Jost';
+  font-weight: 600;
+}
+
+p {
+  font-family: 'Jost';
+}
+
+@media (min-width: 1200px) {
+  .display-4 {
+    font-size: 2.5rem;
+  }
+}
+
+p {
+  font-family: 'Jost';
+}
+
+.navbar {
+  --bs-navbar-padding-x: 0;
+  --bs-navbar-padding-y: 0.5rem;
+  --bs-navbar-color: rgba(0, 0, 0, 0.55);
+  --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
+  --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
+  --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
+  --bs-navbar-brand-padding-y: 0.3rem;
+  --bs-navbar-brand-margin-end: 1rem;
+  --bs-navbar-brand-font-size: 1.25rem;
+  --bs-navbar-brand-color: rgba(0, 0, 0, 0.9);
+  --bs-navbar-brand-hover-color: rgba(0, 0, 0, 0.9);
+  --bs-navbar-nav-link-padding-x: 0.5rem;
+  --bs-navbar-toggler-padding-y: 0.25rem;
+  --bs-navbar-toggler-padding-x: 0.75rem;
+  --bs-navbar-toggler-font-size: 1.25rem;
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  --bs-navbar-toggler-border-color: rgba(0,0,0,0);
+  --bs-navbar-toggler-border-radius: .2rem;
+  --bs-navbar-toggler-focus-width: 0.25rem;
+  --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
+}
+
+a {
+  font-family: Jost, sans-serif;
+}
+
+span {
+  font-family: Jost, sans-serif;
+}
+
+.bg-primary-gradient {
+  background: linear-gradient(135deg, #f8faff, #dfdfdf);
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .6rem 1.5rem;
+  font-size: .9rem;
+  font-weight: 400;
+  line-height: 1.6;
+  font-family: 'Jost';
+  color: #2d2d2d;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.5rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-check-label {
+  font-family: 'Jost';
+}
+
+.form-control:focus {
+  color: #2d2d2d;
+  background-color: #fff;
+  border-color: #9bb1fa;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(208,208,208,0.13);
+}
+
+.list-inline-item {
+  display: inline-block;
+  font-size: 1.2REM;
+}
+
+.fs-6 {
+  font-size: 1.3rem !important;
+}
+
+.text-muted {
+  --bs-text-opacity: 1;
+  color: #050505 !important;
+}
+

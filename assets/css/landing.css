@@ -1,0 +1,17 @@
+header.masthead {
+  position: relative;
+  background: url("../../assets/img/products/service_bg_image.jpg") center / cover no-repeat, #00c4ff;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  background-color: rgba(135,135,135,0.72);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: .3;
+}
+
