@@ -1,0 +1,348 @@
+/* contact-page */
+
+#contact .div-left {
+  padding: 10px;
+  padding-top: 30px;
+}
+
+@media (min-width: 992px) {
+  #contact .div-left {
+    padding: 30px;
+    padding-top: 100px;
+  }
+}
+
+#contact h2 {
+  font-weight: 700;
+  font-size: 36px;
+  font-family: 'Poppins';
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  #contact h2 {
+    font-size: 62px;
+  }
+}
+
+#contact .contact-btn {
+  font-size: 14px;
+  padding: 16px 22px;
+  border: 3px #fff;
+  padding-bottom: 16px;
+  background-color: #9743ff;
+  margin: 35px 0;
+}
+
+#contact a {
+  color: rgb(255,255,255);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#contact p {
+  font-size: 14px;
+}
+
+#contact .form {
+  border-radius: 0px;
+  max-width: 460px;
+  padding: 10px;
+  background-color: #333333;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+label {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+#contact .form-control {
+  border: 2px solid #ffffff;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0px;
+  background-color: rgba(255,255,255,0);
+  color: #fff;
+  font-size: 17px;
+}
+
+.btn.btn-primary.btn-block.form-btn {
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  background-color: rgba(251,88,75,0.35);
+  color: #ffffff;
+  font-size: 15px;
+  margin-top: 35px;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+/* free-quote */
+
+#free-quote {
+  font-family: Poppins, sans-serif;
+  color: rgb(255,255,255);
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 0px 10px;
+  background-image: url("best-seo-agency-usa-hero-img.jpg");
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  #free-quote {
+    margin-top: 65px;
+  }
+}
+
+#free-quote .div-left {
+  padding: 0px;
+  padding-top: 80px;
+}
+
+@media (min-width: 992px) {
+  #free-quote .div-left {
+    padding: 20px 65px;
+    padding-top: 50px;
+    padding-bottom: 120px;
+  }
+}
+
+#free-quote h2 {
+  font-size: 42px;
+  margin-bottom: 30px;
+  color: #333;
+  font-family: 'Open Sans';
+}
+
+@media (min-width: 768px) {
+  #free-quote h2 {
+    font-size: 56px;
+    font-weight: 400;
+  }
+}
+
+#free-quote .contact-btn {
+  font-size: 20px;
+  padding: 15px 20px;
+  border-color: rgba(255,255,255,0);
+}
+
+#free-quote a {
+  color: rgb(255,255,255);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+#free-quote p {
+  font-size: 14px;
+}
+
+#free-quote .form {
+  border-radius: 7px;
+  max-width: 560px;
+  background-color: rgba(255,255,255,0);
+  padding: 0;
+}
+
+#free-quote label {
+  font-size: 16px;
+  color: #333;
+  font-family: 'Poppins';
+  font-weight: 500;
+}
+
+#free-quote .form-control {
+  color: #333;
+  font-size: 17px;
+  height: 48px;
+  font-family: 'Open Sans';
+  font-weight: 300;
+}
+
+#free-quote .btn.btn-primary.btn-block.form-btn {
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  background-color: rgba(251,88,75,0.35);
+  color: #ffffff;
+  font-size: 15px;
+  margin-top: 35px;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+#free-quote .div-form {
+  padding-top: 30px;
+}
+
+@media (min-width: 992px) {
+  #free-quote .div-form {
+    padding: 20px 65px;
+    padding-top: 40px;
+    height: 760px;
+  }
+}
+
+#free-quote .form-controls {
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  #free-quote .form-controls {
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+}
+
+#free-quote .col-md-5 {
+  background-color: rgba(0,0,0,0.88);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+@media (min-width: 768px) {
+  #free-quote .col-md-5 {
+    margin-left: 5px;
+    margin-right: 0;
+  }
+}
+
+/* quote-main */
+
+#quote-main .div-left {
+  padding: 10px;
+  padding-top: 80px;
+  color: #fff;
+  font-family: Oswald, sans-serif;
+}
+
+@media (min-width: 992px) {
+  #quote-main .div-left {
+    padding: 20px 65px;
+    padding-top: 50px;
+    padding-bottom: 120px;
+  }
+}
+
+#quote-main h2 {
+  font-size: 29px;
+  margin-bottom: 30px;
+  color: #333;
+  font-family: 'Open Sans';
+}
+
+@media (min-width: 768px) {
+  #quote-main h2 {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 60.2px;
+  }
+}
+
+#quote-main p {
+  font-size: 14px;
+}
+
+#quote-main .form {
+  border-radius: 7px;
+  max-width: 560px;
+  background-color: rgba(255,255,255,0);
+  padding: 0;
+}
+
+#quote-main label {
+  font-size: 16px;
+  color: #333;
+  font-family: 'Oswald';
+  font-weight: 500;
+}
+
+#quote-main .form-control {
+  color: #333;
+  font-size: 17px;
+  height: 48px;
+  font-family: 'Oswald';
+  font-weight: 300;
+}
+
+#quote-main .btn.btn-primary.btn-block.form-btn {
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  background-color: rgba(251,88,75,0.35);
+  color: #ffffff;
+  font-size: 15px;
+  margin-top: 35px;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+#quote-main .div-form {
+  padding-top: 30px;
+  padding: 10px;
+}
+
+@media (min-width: 992px) {
+  #quote-main .div-form {
+    padding: 20px 65px;
+    padding-top: 40px;
+    height: 760px;
+  }
+}
+
+#quote-main .form-controls {
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  #quote-main .form-controls {
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+}
+
+#free-quote img {
+  margin-top: 12px;
+  margin-right: 20px;
+}
+
+#quote-main img {
+  margin-top: 12px;
+  margin-right: 20px;
+}
+
+.masthead p {
+  font-size: 19px;
+}
+
+.content-link {
+  color: #9743ff;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+.brands img {
+  margin: 25px;
+}
+
+#hero-left {
+  padding: 0;
+}
+
+.brands a img {
+  display: inline-block;
+  margin: 10px 20px;
+  vertical-align: middle;
+}
+
+.brands img {
+  margin: 25px;
+}
+
